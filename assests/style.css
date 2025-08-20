@@ -1,0 +1,122 @@
+body {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #23395d;
+}
+
+header.hero {
+  background: linear-gradient(105deg, #26a69a 60%, #558b2f 100%);
+  color: #fff;
+  text-align: center;
+  padding: 2.5rem 1rem 2rem 1rem;
+  position: relative;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 1.2rem;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+main {
+  padding: 2rem 1rem 3rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section.intro {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.intro .illustration {
+  width: 320px;
+  max-width: 90vw;
+  margin: 1rem auto 1.2rem auto;
+  display: block;
+}
+
+section.statement {
+  background: #e0f2f1;
+  border-radius: 15px;
+  padding: 1.3rem 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px #b2dfdb22;
+}
+
+section.core-values {
+  margin-bottom: 2.5rem;
+}
+
+.core-values h2 {
+  text-align: center;
+}
+
+.values-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.value {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px #b2dfdb22;
+  width: 220px;
+  padding: 1.2rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+  transition: transform 0.17s;
+}
+.value:hover {
+  transform: translateY(-4px) scale(1.025);
+  box-shadow: 0 6px 18px #26a69a22;
+}
+
+.value img {
+  width: 55px;
+  margin-bottom: 0.7rem;
+}
+.value h3 {
+  color: #26a69a;
+  margin-top: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.diagram {
+  display: block;
+  margin: 2rem auto 1rem auto;
+  width: 320px;
+  max-width: 100vw;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #b2dfdb22;
+}
+
+section.guiding-principles {
+  background: #f2f9f5;
+  border-radius: 15px;
+  padding: 1.3rem 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px #c8e6c922;
+}
+
+section.guiding-principles ul {
+  margin: 0;
+  padding-left: 22px;
+}
+
+footer {
+  text-align: center;
+  background: #23395d;
+  color: #fff;
+  padding: 1rem 0;
+  font-size: 0.95rem;
+}
